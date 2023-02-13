@@ -1,0 +1,43 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Tudublin\\": "src"
+        }
+    },
+    "autoload-dev": {
+
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "serve": "php -S localhost:8000 -t public",
+        "markunit": "php marking/mark_unit.php",
+        "markweb": "php marking/mark_acceptance.php",
+        "web": "./vendor/bin/codecept run acceptance  --xml",
+        "web1": "./vendor/bin/codecept run acceptance Type1_Page_Exists_Basic_HTML_Cest.php  --xml",
+        "web2": "./vendor/bin/codecept run acceptance Type2_Page_Contents_Cest  --xml",
+        "web3": "./vendor/bin/codecept run acceptance Type3_Link_And_Data_Test_Cest  --xml",
+        "web4": "./vendor/bin/codecept run acceptance Type4_Data_Checks_Cest  --xml",
+        "unit": "./vendor/bin/codecept run unit  --xml",
+        "unit1": "./vendor/bin/codecept run unit Type1_Construct_Get_Set_Test  --xml",
+        "unit2": "./vendor/bin/codecept run unit Type2_Basic_Operations_Test  --xml",
+        "unit3": "./vendor/bin/codecept run unit Type3_Validation_Test  --xml",
+        "unit4": "./vendor/bin/codecept run unit Type4_Main_Logic_Test  --xml",
+        "websteps": "./vendor/bin/codecept run acceptance --steps  --xml",
+        "web1steps": "./vendor/bin/codecept run acceptance Type1_Page_Exists_Basic_HTML_Cest --steps --xml",
+        "web2steps": "./vendor/bin/codecept run acceptance Type2_Page_Contents_Cest --steps --xml",
+        "web3steps": "./vendor/bin/codecept run acceptance Type3_Link_And_Data_Test_Cest --steps --xml",
+        "web4steps": "./vendor/bin/codecept run acceptance Type4_Data_Checks_Cest --steps --xml"
+    },
+    "require": {
+        "codeception/codeception": "^4.1",
+        "codeception/module-phpbrowser": "^1.0.0",
+        "codeception/module-asserts": "^1.0.0",
+        "ext-simplexml": "*",
+        "monolog/monolog": "^3.3"
+    },
+    "require-dev": {
+        "codeception/assert-throws": "^1.3"
+    }
+}
