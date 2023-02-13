@@ -1,0 +1,5 @@
+I WANT TO WEB1_02_PAGE VALID HTML NO ERRORS
+
+I am on page "$url" 
+I validate markup "['ignoreWarnings' => false]"
+

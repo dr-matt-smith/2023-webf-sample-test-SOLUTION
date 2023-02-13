@@ -1,0 +1,6 @@
+I WANT TO WEB3_01_SERVER SUCCESS CODE WHEN VISIT SITE ROOT
+
+I am on page "$url" 
+I see response code is "HttpCode::OK" 
+I don't see response code is "HttpCode::NOT_FOUND"
+

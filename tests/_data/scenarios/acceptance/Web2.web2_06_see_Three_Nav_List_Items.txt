@@ -1,0 +1,5 @@
+I WANT TO WEB2_06_SEE THREE NAV LIST ITEMS
+
+I am on page "$url" 
+I see number of elements 'nav ul li'," 3"
+

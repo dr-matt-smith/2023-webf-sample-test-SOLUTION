@@ -1,0 +1,6 @@
+I WANT TO WEB1_01_CAN VISIT PAGE
+
+I am on page "$url" 
+I see response code is "HttpCode::OK" 
+I don't see response code is "HttpCode::NOT_FOUND"
+

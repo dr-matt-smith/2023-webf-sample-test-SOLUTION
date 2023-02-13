@@ -1,0 +1,9 @@
+Shopping List 
+
+The provided tests are for a class which stores a shopping list of items.
+
+The name of the list can be set and retrieved.
+
+The list can be cleared, and items added.
+
+If an empty name is submitted (for the list name itself, or an item to be added to list) then a string property containing the most recent error should be updated (which can be retrieved through a getter).

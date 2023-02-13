@@ -1,0 +1,5 @@
+I WANT TO WEB2_03_SEE SITEMAP PAGE TEXT SOMEWHERE
+
+I am on page "$url" 
+I see 'Sitemap Page'
+

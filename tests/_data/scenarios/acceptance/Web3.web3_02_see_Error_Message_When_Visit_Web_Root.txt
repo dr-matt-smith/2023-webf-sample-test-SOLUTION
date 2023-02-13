@@ -1,0 +1,5 @@
+I WANT TO WEB3_02_SEE ERROR MESSAGE WHEN VISIT WEB ROOT
+
+I am on page '/' 
+I see 'error - no such page'
+

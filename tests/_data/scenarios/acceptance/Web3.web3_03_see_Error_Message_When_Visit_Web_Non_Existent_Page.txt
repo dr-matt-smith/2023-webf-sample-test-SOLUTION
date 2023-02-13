@@ -1,0 +1,5 @@
+I WANT TO WEB3_03_SEE ERROR MESSAGE WHEN VISIT WEB NON EXISTENT PAGE
+
+I am on page '/no-such-page' 
+I see 'error - no such page'
+

@@ -1,0 +1,37 @@
+
+Test Class = Type1_Page_Exists_Basic_HTML_Cest
+ [x] test TYPE 1 01 page response okay | "/"
+ [x] test TYPE 1 01 page response okay | "/?action=address"
+ [x] test TYPE 1 01 page response okay | "/?action=modules"
+ [x] test TYPE 1 02 content page | "/","home page","body h1"
+ [x] test TYPE 1 02 content page | "/?action=address","address page","body h1"
+ [x] test TYPE 1 02 content page | "/?action=modules","modules page","body h1"
+
+Test Class = Type2_Page_Contents_Cest
+ [x] test TYPE 2 01 content page1 | "/","wednesday home page","head title"
+ [x] test TYPE 2 01 content page1 | "/","a mini Moodle page","body p"
+ [x] test TYPE 2 01 content page1 | "/","the home page is where it's at","body small"
+ [x] test TYPE 2 02 content page2 | "/?action=address","wednesday address page","head title"
+ [x] test TYPE 2 02 content page2 | "/?action=address","10 Main Street, New York","body p span"
+ [x] test TYPE 2 02 content page2 | "/?action=modules","modules page","body h1"
+
+Test Class = Type3_Link_And_Data_Test_Cest
+ [x] test TYPE 3 01 linls page1 | "/","/?action=address","contact address"
+ [x] test TYPE 3 01 linls page1 | "/","/?action=modules","module list"
+ [x] test TYPE 3 02 links page2 | "/?action=address","/","(home)"
+ [x] test TYPE 3 02 links page2 | "/?action=address","/?action=modules","module list"
+ [x] test TYPE 3 03 should not see link | "/","(home)"
+ [x] test TYPE 3 03 should not see link | "/","Logout"
+
+Test Class = Type4_Data_Checks_Cest
+ [x] test TYPE 4 01 see item count | "/?action=modules","3","table tr"
+ [x] test TYPE 4 02 see table data element content for module | "/?action=modules","1: Web Framework Development, year 3","table td"
+ [x] test TYPE 4 02 see table data element content for module | "/?action=modules","2: Software Development, year 2","table td"
+ [x] test TYPE 4 02 see table data element content for module | "/?action=modules","3: Final Year Project, year 4","table td"
+ [x] test TYPE 4 03 see details for record1 | "/?action=module&id=1","Module 1","p"
+ [x] test TYPE 4 03 see details for record1 | "/?action=module&id=1","name = Web Framework Development","ul li"
+ [x] test TYPE 4 03 see details for record1 | "/?action=module&id=1","year = 3","ul li"
+ [x] test TYPE 4 04 see details for record2 | "/?action=module&id=2","Module 2","p"
+ [x] test TYPE 4 04 see details for record2 | "/?action=module&id=2","name = Software Development","ul li"
+ [x] test TYPE 4 04 see details for record2 | "/?action=module&id=2","year = 2","ul li"
+

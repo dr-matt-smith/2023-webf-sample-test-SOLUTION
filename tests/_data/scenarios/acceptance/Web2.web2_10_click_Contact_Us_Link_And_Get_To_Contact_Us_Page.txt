@@ -1,0 +1,6 @@
+I WANT TO WEB2_10_CLICK CONTACT US LINK AND GET TO CONTACT US PAGE
+
+I am on page "$url" 
+I click 'Contact Us' 
+I see current url equals '/?action=contact'
+

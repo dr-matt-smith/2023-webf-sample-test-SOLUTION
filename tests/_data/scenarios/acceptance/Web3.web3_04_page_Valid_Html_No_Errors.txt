@@ -1,0 +1,6 @@
+I WANT TO WEB3_04_PAGE VALID HTML NO ERRORS
+
+I am on page '/no-such-page' 
+I see 'error - no such page' 
+I validate markup "['ignoreWarnings' => false]"
+

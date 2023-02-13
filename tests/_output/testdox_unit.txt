@@ -1,0 +1,23 @@
+
+Test Class = TudublinTest\Type1_Construct_Get_Set_Test
+ [x] test TYPE 1 01 ConGetSet NotNullAfterConstruction
+ [x] test TYPE 1 02 ConGetSet ListNameCorrectAfterValidConstruction
+ [x] test TYPE 1 03 ConGetSet ListNameCorrectAfterAnotherValidConstruction
+ [x] test TYPE 1 04 ConGetSet DefaultArrayAfterConstruction
+ [x] test TYPE 1 05 ConGetSet ThreeItemsAfterConstruction
+
+Test Class = TudublinTest\Type2_Basic_Operations_Test
+ [x] test TYPE 2 01 BasicOperations ListEmptyAfterAllItemsRemoved
+ [x] test TYPE 2 02 BasicOperations GetDefaultFirstItem
+
+Test Class = TudublinTest\Type3_Validation_Test
+ [x] test TYPE 3 01 Validation LastErrorNoneAfterValidConstruction
+ [x] test TYPE 3 02 Validation LastErrorEmptyStringAfterInValidConstruction
+ [x] test TYPE 3 03 Validation LastErrorEmptyStringAfterEmptySetName
+ [x] test TYPE 3 04 Validation FalseWhenSubmitEmptyName
+ [x] test TYPE 3 05 Validation EmptyItemNameLastErrorAfterAddToListWithEmptyString
+
+Test Class = TudublinTest\Type4_Main_Logic_Test
+ [x] test TYPE 4 01 MainLogic ItemAddedToListWhenValidItemName
+ [x] test TYPE 4 02 MainLogic Throws Exception from getFirstItem when list empty
+

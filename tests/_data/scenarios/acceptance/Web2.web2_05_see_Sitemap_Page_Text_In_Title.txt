@@ -1,0 +1,5 @@
+I WANT TO WEB2_05_SEE SITEMAP PAGE TEXT IN TITLE
+
+I am on page "$url" 
+I see 'Sitemap Page'," ['css' => 'title']"
+
